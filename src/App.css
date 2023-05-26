@@ -1,0 +1,36 @@
+:root {
+  --bg-body: hsl(0, 0%, 8%);
+  --bg-body2: hsl(0, 0%, 14%);
+  --accent: hsl(153, 71%, 59%);
+  --text1: hsl(0, 0%, 100%);
+  --text2: hsl(0, 0%, 85%);
+  --invalid: hsl(7, 100%, 68%);
+}
+
+body {
+  background-color: var(--bg-body);
+  color: var(--text1);
+}
+
+.blur {
+  /* background-color: hsla(0, 0%, 8%); */
+  z-index: -1;
+}
+
+/* @media screen and (min-width: 768px) {
+  .main-grid {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-areas:
+      "two one"
+      "two one";
+  }
+
+  .main-grid-elem {
+    grid-area: one;
+  }
+
+  .main-grid-elem2 {
+    grid-area: two;
+  }
+} */
