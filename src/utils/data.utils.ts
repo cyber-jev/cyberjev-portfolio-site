@@ -102,22 +102,4 @@ export const projects = [
       "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
     codeLink: "",
   },
-  {
-    id: 2,
-    title: "School Managment System",
-    image: imagePortfolio1,
-    techUsed: ["JavaScript", "React"],
-    projectLink:
-      "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
-    codeLink: "",
-  },
-  {
-    id: 3,
-    title: "School Managment System",
-    image: imagePortfolio1,
-    techUsed: ["JavaScript"],
-    projectLink:
-      "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
-    codeLink: "",
-  },
 ];
