@@ -11,6 +11,7 @@ import iconLinkPhone from "../assets/icon-phone.svg";
 import iconLinkLinkedin from "../assets/icon-linkedin.svg";
 import iconLinkTwitter from "../assets/icon-twitter.svg";
 import imagePortfolio1 from "../assets/school-managment-system.png";
+import imagePortfolioRecipeSpace from "../assets/imagePortfolioRecipeSpace.png";
 import patterCircle from "../assets/pattern-circle.svg";
 import patterRings from "../assets/pattern-rings.svg";
 
@@ -101,5 +102,14 @@ export const projects = [
     projectLink:
       "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
     codeLink: "",
+  },
+
+  {
+    id: 2,
+    title: "Recipe Space",
+    image: imagePortfolioRecipeSpace,
+    techUsed: ["JavaScript", "React", "Typescript", "Api"],
+    projectLink: "https://recipespace.vercel.app/",
+    codeLink: "https://github.com/cyber-jev/recipe-space",
   },
 ];
