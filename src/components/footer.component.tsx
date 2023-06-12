@@ -7,7 +7,7 @@ import { contactLinks, images } from "../utils/data.utils";
 const Footer: React.FC = () => {
   return (
     <div className="bg-body2 py-7 relative">
-      <div className="max-w-[1020px] m-auto">
+      <div className="max-w-[1200px] m-auto">
         <img
           src={images.patterRings}
           alt="rings"

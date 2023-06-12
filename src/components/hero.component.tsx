@@ -6,7 +6,7 @@ import ContactLinks from "./contact-links.component";
 const Hero: React.FC = () => {
   return (
     <div className="relative text-center overflow-hidden px-2.5">
-      <div className="max-w-[1020px] m-auto">
+      <div className="max-w-[1200px] m-auto">
         <div className=" w-56 m-auto  bg-text2 bg-opacity-5 md:bg-inherit md:w-full">
           <ContactLinks links={contactLinks} />
         </div>
@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="my-14 max-w-[1020px] m-auto">
+      <div className="my-14 max-w-[1200px] m-auto">
         <Line />
       </div>
     </div>

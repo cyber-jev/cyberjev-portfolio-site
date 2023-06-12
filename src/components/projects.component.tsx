@@ -45,7 +45,7 @@ const Project: React.FC<{ work: ProjectsType }> = ({ work }) => {
 // ? all projects
 const Projects: React.FC<ProjectProps> = ({ works }) => {
   return (
-    <section className="p-2.5 max-w-[1020px] m-auto">
+    <section className="p-2.5 max-w-[1200px] m-auto">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold">Projects</h2>
         <Btn title="CONTACT ME" />
