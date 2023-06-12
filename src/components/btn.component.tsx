@@ -10,6 +10,7 @@ export const Btn: React.FC<{ title: string; url?: string }> = ({
         <a href={url} target="_blank">
           {title}
         </a>
+        <span className="absolute bottom-0 left-0 w-1/2 h-0.5 bg-accent transform scale-x-0 transition-transform duration-300 origin-left hover:scale-x-100"></span>
       </button>
     </div>
   );

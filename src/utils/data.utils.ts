@@ -101,7 +101,7 @@ export const projects = [
     techUsed: ["JavaScript", "OOP"],
     projectLink:
       "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
-    codeLink: "",
+    codeLink: "https://github.com/cyber-jev/school-management-system",
   },
 
   {

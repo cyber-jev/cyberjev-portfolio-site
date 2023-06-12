@@ -18,17 +18,25 @@ type ProjectProps = {
 const Project: React.FC<{ work: ProjectsType }> = ({ work }) => {
   const { id, title, image, techUsed, projectLink, codeLink } = work;
   return (
-    <div className="py-4 relative group ">
-      <img src={image} alt={title} />
+    <div className="py-4 relative group overflow-hidden ">
+      <div className="overflow-hidden ">
+        <img
+          src={image}
+          alt={title}
+          className="transition-transform duration-300 transform  hover:scale-110"
+        />
+      </div>
       <h3 className="text-xl font-bold py-2">{title}</h3>
       <div className="flex gap-2">
         {techUsed.map((tech) => (
           <p className="text-text2">{tech}</p>
         ))}
       </div>
-      <div className="flex gap-2 lg:absolute lg:top-[30%] lg:left-[40%]  lg:text-center lg:hidden lg:group-hover:block  lg:hover:backdrop-filter lg:hover:backdrop-blur">
-        <Btn title="VIEW PROJECT" url={projectLink} />
-        <Btn title="VIEW CODE" url="codeLink" />
+      <div className="lg:h-[100%] lg:w-full lg:hidden lg:absolute lg:top-0 lg:group-hover:block lg:hover:backdrop-filter lg:hover:backdrop-blur ">
+        <div className="flex gap-2 lg:absolute lg:top-[30%] lg:left-[40%]  lg:text-center  lg:flex-col  lg:transition-transform lg:duration-300 lg:transform lg:hover:scale-110">
+          <Btn title="VIEW PROJECT" url={projectLink} />
+          <Btn title="VIEW CODE" url={codeLink} />
+        </div>
       </div>
     </div>
   );

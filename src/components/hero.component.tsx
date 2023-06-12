@@ -22,11 +22,11 @@ const Hero: React.FC = () => {
             alt="pattern circle image"
             className="absolute z-[-1] -right-14 top-48 opacity-40 w-24 md:w-20 md:opacity-100 md:top-[18.5rem] md:right-3 lg:right-[17.3rem] lg:w-16"
           />
-          <div className="relative  w-56  bg-text2 bg-opacity-5 border-separate h-[300px] md:h-[480px] mx-auto md:w-80 md:z-[-2] md:absolute md:-right-3 md:-top-20 ">
+          <div className="relative overflow-hidden  w-56  bg-text2 bg-opacity-5 border-separate h-[300px] md:h-[480px] mx-auto md:w-80 md:z-[-2] md:absolute md:-right-3 md:-top-20 ">
             <img
               src={images.profilePictureGray}
               alt="Profile Picture"
-              className="absolute bottom-0 md:w-96"
+              className="absolute bottom-0 md:w-96  hover:scale-110 transition-all duration-300"
             />
           </div>
           <div className="md:py-10">
