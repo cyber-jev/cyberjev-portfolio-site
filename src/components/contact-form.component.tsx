@@ -21,7 +21,7 @@ const ContactForm: React.FC = () => {
     try {
       await axios.post("https://formspree.io/f/xgebbyvq", data);
       reset();
-      alert("Message sent successfully!");
+      alert("I got your message, Thanks 🙌");
     } catch (error) {
       console.error("Error sending message:", error);
       alert(
@@ -33,7 +33,10 @@ const ContactForm: React.FC = () => {
 
   return (
     <section>
-      <div className="p-2.5 pt-7 max-w-[1200px] lg:grid  lg:grid-cols-2 m-auto ">
+      <div
+        className="p-2.5 pt-7 max-w-[1200px] lg:grid  lg:grid-cols-2 m-auto "
+        id="contact-me"
+      >
         <div className="text-center lg:text-left">
           <h2 className="text-5xl font-bold lg:text-6xl">Contact</h2>
           <p className="py-4 text-sm font-medium text-text2 max-w-[40ch] text-center m-auto lg:text-lg lg:text-left lg:m-0 lg:pt-9">

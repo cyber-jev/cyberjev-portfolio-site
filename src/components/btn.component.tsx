@@ -1,9 +1,10 @@
 import React from "react";
 
-export const Btn: React.FC<{ title: string; url?: string }> = ({
-  title,
-  url,
-}) => {
+export const Btn: React.FC<{
+  title: string;
+  url?: string;
+  onClick?: () => void;
+}> = ({ title, url, onClick }) => {
   return (
     <div>
       <button className="relative text-sm font-semibold py-3 after:bg-accent after:absolute after:w-full after:h-0.5 after:left-0 after:bottom-1 after:rounded">
