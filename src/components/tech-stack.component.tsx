@@ -32,7 +32,7 @@ const TeckStack: React.FC<TechStackProps> = ({ items }) => {
   return (
     <section className="relative overflow-hidden ">
       <div className="max-w-[1200px] m-auto">
-        <h2 className="text-2xl mb-2 font-bold">Tech Stack</h2>
+        <h2 className="text-2xl mb-2 px-2.5 font-bold">Tech Stack</h2>
         <div className="px-2.5 m-auto w-max grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-7">
           {items.map((item) => (
             <StackItem key={item.id} item={item} />
