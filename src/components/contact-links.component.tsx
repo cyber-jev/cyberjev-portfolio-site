@@ -14,9 +14,13 @@ type ContactLinksProps = {
 const Link: React.FC<{ link: ContactLink }> = ({ link }) => {
   const { id, title, icon, url } = link;
   return (
-    <li>
+    <li className="animate-bounce">
       <a href={url} target="_blank">
-        <img src={icon} alt={title} className="max-w-sm" />
+        <img
+          src={icon}
+          alt={title}
+          className="max-w-sm hover:scale-150 transition-transform "
+        />
       </a>
     </li>
   );
