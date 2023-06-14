@@ -4,13 +4,6 @@ import { Line, Btn } from "./btn.component";
 import ContactLinks from "./contact-links.component";
 
 const Hero: React.FC = () => {
-  const handleDownloadResume = () => {
-    const downloadLink = document.createElement("a");
-    downloadLink.href = "../assets/Johnny-Ekparam-resume.pdf";
-    downloadLink.download = "../assets/Johnny-Ekparam-resume.pdf";
-    downloadLink.click();
-  };
-
   return (
     <div className="relative text-center overflow-hidden px-2.5">
       <div className="max-w-[1200px] m-auto">
@@ -51,8 +44,12 @@ const Hero: React.FC = () => {
           </div>
           <div>
             <Btn title="CONTACT ME" url="#contact-me" />
-            {/* <Btn title="Download Resume" /> */}
-            <Btn title="Download Resume" onClick={handleDownloadResume} />
+            {/* <Btn title="Download Resume" onClick={handleDownloadResume} /> */}
+            <Btn
+              title="Download Resume"
+              url="https://drive.google.com/file/d/1olnOMIzWyzYoldSUDKbia3PQ8wxSEitG/view?usp=sharing"
+              id={1}
+            />
           </div>
         </div>
       </div>

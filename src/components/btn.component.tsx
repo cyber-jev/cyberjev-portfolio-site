@@ -4,8 +4,7 @@ export const Btn: React.FC<{
   id?: number;
   title: string;
   url?: string;
-  onClick?: () => void;
-}> = ({ title, url, id, onClick }) => {
+}> = ({ title, url, id }) => {
   return (
     <div>
       <button className="relative text-sm font-semibold py-3 hover:translate-y-1 after:bg-accent after:absolute after:w-full after:h-0.5 after:left-0 after:bottom-1 after:rounded lg:text-lg">
