@@ -24,8 +24,11 @@ const StackItem: React.FC<{ item: StackItems }> = ({ item }) => {
       />
       <div>
         {/* <p className="text-xl font-bold">{title}</p> */}
-        <p className="text-text2">
-          {rating} Year{Number(rating) > 1 ? "s" : ""} Experience
+        <p className="text-text2 hover:translate-y-2 transition-transform duration-300">
+          <span className="hover:text-accent">
+            {rating} Year{Number(rating) > 1 ? "s" : ""}
+          </span>{" "}
+          Experience
         </p>
       </div>
     </div>
