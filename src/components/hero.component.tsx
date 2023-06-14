@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
             </h1>
             <p className="py-1 text-text2 max-w-[50ch]">
               Based in Nigeria, I'm a front-end software engineer who loves
-              crafting funtional and immersive web experiences that captivate
+              crafting functional and immersive web experiences that captivate
               and inspire{" "}
             </p>
           </div>
