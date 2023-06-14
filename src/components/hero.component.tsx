@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   const handleDownloadResume = () => {
     const downloadLink = document.createElement("a");
     downloadLink.href = "../assets/Johnny-Ekparam-resume.pdf";
-    downloadLink.download = "resume.pdf";
+    downloadLink.download = "../assets/Johnny-Ekparam-resume.pdf";
     downloadLink.click();
   };
 

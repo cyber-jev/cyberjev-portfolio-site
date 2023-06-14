@@ -1,14 +1,19 @@
 import React from "react";
 
 export const Btn: React.FC<{
+  id?: number;
   title: string;
   url?: string;
   onClick?: () => void;
-}> = ({ title, url, onClick }) => {
+}> = ({ title, url, id, onClick }) => {
   return (
     <div>
       <button className="relative text-sm font-semibold py-3 hover:translate-y-1 after:bg-accent after:absolute after:w-full after:h-0.5 after:left-0 after:bottom-1 after:rounded lg:text-lg">
-        <a href={url} target="_blank" className="relative p-1 ">
+        <a
+          href={url}
+          target={id == 1 ? "_blank" : ""}
+          className="relative p-1 "
+        >
           {title}
           <span className="absolute left-0 top-0 h-full w-2/3 bg-accent opacity-0 hover:opacity-40 transition-opacity transform -skew-x-12 z-0"></span>
         </a>
