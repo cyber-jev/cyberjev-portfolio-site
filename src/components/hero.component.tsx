@@ -30,7 +30,16 @@ const Hero: React.FC = () => {
             />
           </div>
           <div className="md:py-10">
-            <h1 className="text-4xl font-bold py-5 md:text-6xl">
+            <h1 className="text-3xl font-bold py-5 md:text-6xl">
+              {/* <span className="text-accent animate-pulse">
+                Hi
+                <img
+                  src="https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif"
+                  alt="wave emoji"
+                  className="inline-block w-[27px] md:w-[60px] "
+                />
+                !{" "}
+              </span> */}
               Nice to meet you! <br /> I'm{" "}
               <span className="relative   after:bg-accent after:absolute after:w-full after:h-[0.2rem] after:left-0 after:-bottom-0 after:rounded lg:text-7xl">
                 Johnny Ekparam.
