@@ -12,6 +12,7 @@ import iconLinkLinkedin from "../assets/icon-linkedin.svg";
 import iconLinkTwitter from "../assets/icon-twitter.svg";
 import imagePortfolio1 from "../assets/school-managment-system.png";
 import imagePortfolioRecipeSpace from "../assets/imagePortfolioRecipeSpace.png";
+import imagePortfolioGridtactica from "../assets/imageGritactica.png";
 import patterCircle from "../assets/pattern-circle.svg";
 import patterRings from "../assets/pattern-rings.svg";
 
@@ -108,8 +109,17 @@ export const projects = [
     id: 2,
     title: "Recipe Space",
     image: imagePortfolioRecipeSpace,
-    techUsed: ["JavaScript", "React", "Typescript", "Api"],
+    techUsed: ["JavaScript", "React", "Typescript", "Api", "TailwindCss"],
     projectLink: "https://recipespace.vercel.app/",
     codeLink: "https://github.com/cyber-jev/recipe-space",
+  },
+
+  {
+    id: 3,
+    title: "Gridtactica",
+    image: imagePortfolioGridtactica,
+    techUsed: ["JavaScript", "React", "TailwindCss"],
+    projectLink: "https://gridtactica.vercel.app",
+    codeLink: "https://github.com/cyber-jev/gridTactica",
   },
 ];
