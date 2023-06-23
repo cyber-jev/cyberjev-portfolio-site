@@ -97,12 +97,11 @@ export const contactLinks = [
 export const projects = [
   {
     id: 1,
-    title: "School Managment System",
-    image: imagePortfolio1,
-    techUsed: ["JavaScript", "OOP"],
-    projectLink:
-      "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
-    codeLink: "https://github.com/cyber-jev/school-management-system",
+    title: "Gridtactica",
+    image: imagePortfolioGridtactica,
+    techUsed: ["JavaScript", "React", "TailwindCss"],
+    projectLink: "https://gridtactica.vercel.app",
+    codeLink: "https://github.com/cyber-jev/gridTactica",
   },
 
   {
@@ -116,10 +115,11 @@ export const projects = [
 
   {
     id: 3,
-    title: "Gridtactica",
-    image: imagePortfolioGridtactica,
-    techUsed: ["JavaScript", "React", "TailwindCss"],
-    projectLink: "https://gridtactica.vercel.app",
-    codeLink: "https://github.com/cyber-jev/gridTactica",
+    title: "School Managment System",
+    image: imagePortfolio1,
+    techUsed: ["JavaScript", "OOP"],
+    projectLink:
+      "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
+    codeLink: "https://github.com/cyber-jev/school-management-system",
   },
 ];
