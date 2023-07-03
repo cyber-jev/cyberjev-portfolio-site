@@ -45,10 +45,9 @@ const Hero: React.FC = () => {
                 Johnny Ekparam.
               </span>
             </h1>
-            <p className="py-1 text-text2 max-w-[50ch] m-auto lg:m-0">
-              Based in Nigeria, I'm a front-end software engineer who loves
-              crafting functional and immersive web experiences that captivate
-              and inspire{" "}
+            <p className="py-1 text-text2 max-w-[45ch] m-auto lg:m-0">
+              I'm a front-end software engineer who loves crafting functional
+              and immersive web experiences that captivate and inspire{" "}
             </p>
           </div>
           <div>
