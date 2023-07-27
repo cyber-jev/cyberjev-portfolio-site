@@ -14,7 +14,7 @@ import imagePortfolio1 from "../assets/school-managment-system.png";
 import imagePortfolioRecipeSpace from "../assets/imagePortfolioRecipeSpace.png";
 import imagePortfolioGridtactica from "../assets/imageGritactica.png";
 import imagePortfolioPathfinder from "../assets/imagePathfinderVisualizer.png";
-import imagePortfolioCtTest from "../assets/img-CT_SkillTest_v3.webp";
+import imagePortfolioCtTest from "../assets/img-CT_SkillTest_v3.jpg";
 import patterCircle from "../assets/pattern-circle.svg";
 import patterRings from "../assets/pattern-rings.svg";
 
