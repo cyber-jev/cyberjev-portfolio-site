@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
-import { Line } from "./btn.component";
+import { Line, Btn } from "./btn.component";
 
 type FormData = {
   name: string;
@@ -37,12 +37,16 @@ const ContactForm: React.FC = () => {
         className="p-2.5 pt-7 max-w-[1200px] lg:grid  lg:grid-cols-2 m-auto "
         id="contact-me"
       >
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:text-left relative">
           <h2 className="text-5xl font-bold lg:text-6xl">Contact</h2>
           <p className="py-4 text-sm font-medium text-text2 max-w-[40ch] text-center m-auto lg:text-lg lg:text-left lg:m-0 lg:pt-9">
             I would like to hear your exciting projects or get feedback from
-            you. Please fill the form and I'll get back to you asap!
+            you. Please fill the form and I'll get back to you asap!. You can
+            also call my phone
           </p>
+          <div className="mb-8 lg:mb-0 ">
+            <Btn title="Phone" url="tel:+2347034889296" />
+          </div>
         </div>
 
         <form
