@@ -14,6 +14,7 @@ import imagePortfolio1 from "../assets/school-managment-system.png";
 import imagePortfolioRecipeSpace from "../assets/imagePortfolioRecipeSpace.png";
 import imagePortfolioGridtactica from "../assets/imageGritactica.png";
 import imagePortfolioPathfinder from "../assets/imagePathfinderVisualizer.png";
+import imagePortfolioCtTest from "../assets/img-CT_SkillTest_v3.webp";
 import patterCircle from "../assets/pattern-circle.svg";
 import patterRings from "../assets/pattern-rings.svg";
 
@@ -109,7 +110,7 @@ export const projects = [
     id: 2,
     title: "Pathfinding Alorithm Visualizer",
     image: imagePortfolioPathfinder,
-    techUsed: ["JavaScript", "React"],
+    techUsed: ["JavaScript", "React", "Css3"],
     projectLink: "https://pathfinding-algo-visualizer.vercel.app/",
     codeLink: "https://github.com/cyber-jev/pathfinding-visualizer",
   },
@@ -118,14 +119,23 @@ export const projects = [
     id: 3,
     title: "Recipe Space",
     image: imagePortfolioRecipeSpace,
-    techUsed: ["JavaScript", "React", "Typescript", "Api", "TailwindCss"],
+    techUsed: ["Typescript", "JavaScript", "React", "Api", "TailwindCss"],
     projectLink: "https://recipespace.vercel.app/",
     codeLink: "https://github.com/cyber-jev/recipe-space",
   },
 
   {
     id: 4,
-    title: "School Managment System",
+    title: "CT Skill Test V3",
+    image: imagePortfolioCtTest,
+    techUsed: ["Html5", "Css3", "JavaScript"],
+    projectLink: "https://cyberjev-ct-skill-test-v3.vercel.app/",
+    codeLink: "https://github.com/cyber-jev/CT_SkillTest_v3",
+  },
+
+  {
+    id: 5,
+    title: "School Managment System Design",
     image: imagePortfolio1,
     techUsed: ["JavaScript", "OOP"],
     projectLink:
