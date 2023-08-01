@@ -79,7 +79,8 @@ export const contactLinks = [
     id: 2,
     title: "Linkedin",
     icon: iconLinkLinkedin,
-    url: "https://www.linkedin.com/in/johnny-ekparam-93a1b2124/",
+    // url: "https://www.linkedin.com/in/johnny-ekparam-93a1b2124/",
+    url: "https://www.linkedin.com/in/johnny-ekparam-5776ab223/",
   },
   {
     id: 3,
