@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
             {/* <Btn title="Download Resume" onClick={handleDownloadResume} /> */}
             <Btn
               title="Download Resume"
-              url="https://drive.google.com/file/d/1olnOMIzWyzYoldSUDKbia3PQ8wxSEitG/view?usp=sharing"
+              url="https://drive.google.com/file/d/1Xdg9_o8YBHqnAPu8nSB8H8ppIlZJ5yYQ/view?usp=sharing"
               id={1}
             />
           </div>
