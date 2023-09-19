@@ -17,6 +17,32 @@ body {
   z-index: -1;
 }
 
+/* .animate-on-scroll {
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.animate-on-scroll:nth-of-type(odd) {
+  transform: translateX(-400%);
+}
+
+.animate-on-scroll.show {
+  transform: translateX(0);
+} */
+
+.animate-on-scroll {
+  transform: translateX(100%);
+  transition: transform 0.8s ease; /* Increased duration for smoother animation */
+}
+
+.animate-on-scroll:nth-of-type(odd) {
+  transform: translateX(-100%);
+}
+
+.animate-on-scroll.show {
+  transform: translateX(0);
+}
+
 /* @media screen and (min-width: 768px) {
   .main-grid {
     display: grid;
