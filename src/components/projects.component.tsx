@@ -8,6 +8,7 @@ type ProjectsType = {
   techUsed: string[];
   projectLink: string;
   codeLink: string;
+  description: string;
 };
 
 type ProjectProps = {
@@ -41,9 +42,10 @@ const Project: React.FC<{ work: ProjectsType }> = ({ work }) => {
 
   //?scroll animation ends
 
-  const { id, title, image, techUsed, projectLink, codeLink } = work;
+  const { id, title, image, techUsed, projectLink, codeLink, description } =
+    work;
   return (
-    <div className="py-4 relative group overflow-hidden animate-on-scroll">
+    <div className="py-4 my-2 relative group overflow-hidden animate-on-scroll">
       <div className="overflow-hidden ">
         <img
           src={image}
@@ -54,10 +56,13 @@ const Project: React.FC<{ work: ProjectsType }> = ({ work }) => {
       <h3 className="text-xl font-bold py-2">{title}</h3>
       <div className="flex gap-2">
         {techUsed.map((tech) => (
-          <p className="text-text2" key={tech}>
+          <p className="font-bold text-accent" key={tech}>
             {tech}
           </p>
         ))}
+      </div>
+      <div className="my-2">
+        <p>{description}</p>
       </div>
       <div className="lg:h-[100%] lg:w-full lg:hidden lg:absolute lg:top-0 lg:group-hover:block lg:hover:backdrop-filter lg:hover:backdrop-blur ">
         <div className="flex gap-2 lg:absolute lg:top-[30%] lg:left-[40%]  lg:text-center  lg:flex-col  lg:transition-transform lg:duration-300 lg:transform lg:hover:scale-110">

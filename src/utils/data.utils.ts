@@ -14,6 +14,8 @@ import imagePortfolio1 from "../assets/school-managment-system.png";
 import imagePortfolioRecipeSpace from "../assets/imagePortfolioRecipeSpace.png";
 import imagePortfolioGridtactica from "../assets/imageGritactica.png";
 import imagePortfolioPathfinder from "../assets/imagePathfinderVisualizer.png";
+import imagePortfolioObakpo from "../assets/imagePortfolioObakpo.png";
+import imagePortfolioRisingcoin from "../assets/imagePortfolioRisingcoin.png";
 import imagePortfolioCtTest from "../assets/img-CT_SkillTest_v3.jpg";
 import patterCircle from "../assets/pattern-circle.svg";
 import patterRings from "../assets/pattern-rings.svg";
@@ -99,47 +101,74 @@ export const contactLinks = [
 export const projects = [
   {
     id: 1,
+    title: "Obakpo Offshore",
+    image: imagePortfolioObakpo,
+    techUsed: ["Php", "Wordpress", "Css"],
+    projectLink: "https://obakpooffshore.com/",
+    codeLink: "",
+    description:
+      "A stunning website built on WordPress for Obakpo Offshore Integrated Nigeria Limited, a leading ship manufacturer. The site showcases their impressive portfolio and provides clear information about their services.",
+  },
+  {
+    id: 2,
+    title: "Rising Coin",
+    image: imagePortfolioRisingcoin,
+    techUsed: ["JavaScript", "React", "TailwindCss"],
+    projectLink: "https://risingcoin.io/",
+    codeLink: "",
+    description:
+      "In this collaborative project, I played a key role in developing the user-friendly frontend for a cryptocurrency exchange platform built with React. I focused on crafting an intuitive interface that prioritizes ease of use.",
+  },
+  {
+    id: 3,
     title: "Gridtactica",
     image: imagePortfolioGridtactica,
     techUsed: ["JavaScript", "React", "TailwindCss"],
     projectLink: "https://gridtactica.vercel.app",
     codeLink: "https://github.com/cyber-jev/gridTactica",
+    description:
+      "This project marked my foray into React development. Building upon the official React documentation tutorial, I expanded the functionality by implementing different board sizes. This hands-on experience allowed me to solidify my understanding of core React concepts, including state management, component structure, and user interaction.",
   },
 
   {
-    id: 2,
+    id: 4,
     title: "Pathfinding Alorithm Visualizer",
     image: imagePortfolioPathfinder,
     techUsed: ["JavaScript", "React", "Css3"],
     projectLink: "https://pathfinding-algo-visualizer.vercel.app/",
     codeLink: "https://github.com/cyber-jev/pathfinding-visualizer",
+    description:
+      "A simple yet effective visualization of Dijkstra's algorithm, which identifies the shortest paths between nodes in a weighted graph. I developed this project using React and CSS to provide a clear and interactive demonstration of the algorithm's functionality.",
   },
 
   {
-    id: 3,
+    id: 5,
     title: "Recipe Space",
     image: imagePortfolioRecipeSpace,
     techUsed: ["Typescript", "JavaScript", "React", "Api", "TailwindCss"],
     projectLink: "https://recipespace.vercel.app/",
     codeLink: "https://github.com/cyber-jev/recipe-space",
+    description:
+      "This React-based project, a recipe finder, served as a valuable learning ground for consuming external APIs using best practices. I implemented search functionality that leverages an API to retrieve recipes based on user input",
   },
-
   {
-    id: 4,
-    title: "CT Skill Test V3",
-    image: imagePortfolioCtTest,
-    techUsed: ["Html5", "Css3", "JavaScript"],
-    projectLink: "https://cyberjev-ct-skill-test-v3.vercel.app/",
-    codeLink: "https://github.com/cyber-jev/CT_SkillTest_v3",
-  },
-
-  {
-    id: 5,
+    id: 6,
     title: "School Managment System Design",
     image: imagePortfolio1,
     techUsed: ["JavaScript", "OOP"],
     projectLink:
       "https://replit.com/@cyber-jev/school-management-system0x1stableversion",
     codeLink: "https://github.com/cyber-jev/school-management-system",
+    description:
+      "This project served as a foundation for my Object-Oriented Programming (OOP) journey. By designing a simple school management system with Javascript, I gained hands-on experience with various OOP best practices, including the SOLID principles",
   },
+  // {
+  //   id: 7,
+  //   title: "CT Skill Test V3",
+  //   image: imagePortfolioCtTest,
+  //   techUsed: ["Html5", "Css3", "JavaScript"],
+  //   projectLink: "https://cyberjev-ct-skill-test-v3.vercel.app/",
+  //   codeLink: "https://github.com/cyber-jev/CT_SkillTest_v3",
+  //   description: "",
+  // },
 ];
