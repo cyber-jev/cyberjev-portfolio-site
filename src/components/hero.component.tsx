@@ -46,8 +46,8 @@ const Hero: React.FC = () => {
               </span>
             </h1>
             <p className="py-1 text-text2 max-w-[45ch] m-auto lg:m-0">
-              I'm a front-end software engineer who loves crafting functional
-              and immersive web experiences that captivate and inspire{" "}
+              I'm a web artisan who loves crafting functional and immersive web
+              experiences that captivate and inspire{" "}
             </p>
           </div>
           <div>

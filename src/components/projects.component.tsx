@@ -45,7 +45,7 @@ const Project: React.FC<{ work: ProjectsType }> = ({ work }) => {
   const { id, title, image, techUsed, projectLink, codeLink, description } =
     work;
   return (
-    <div className="py-4 my-2 relative group overflow-hidden animate-on-scroll">
+    <div className="py-4 my-5 relative group overflow-hidden animate-on-scroll">
       <div className="overflow-hidden ">
         <img
           src={image}
@@ -66,8 +66,10 @@ const Project: React.FC<{ work: ProjectsType }> = ({ work }) => {
       </div>
       <div className="lg:h-[100%] lg:w-full lg:hidden lg:absolute lg:top-0 lg:group-hover:block lg:hover:backdrop-filter lg:hover:backdrop-blur ">
         <div className="flex gap-2 lg:absolute lg:top-[30%] lg:left-[40%]  lg:text-center  lg:flex-col  lg:transition-transform lg:duration-300 lg:transform lg:hover:scale-110">
-          <Btn title="VIEW PROJECT" url={projectLink} id={1} />
-          <Btn title="VIEW CODE" url={codeLink} id={1} />
+          {projectLink !== "" && (
+            <Btn title="VIEW PROJECT" url={projectLink} id={1} />
+          )}
+          {codeLink !== "" && <Btn title="VIEW CODE" url={codeLink} id={1} />}
         </div>
       </div>
     </div>
