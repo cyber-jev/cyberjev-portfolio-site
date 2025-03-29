@@ -104,7 +104,7 @@ export const projects = [
     title: "Obakpo Offshore",
     image: imagePortfolioObakpo,
     techUsed: ["Php", "Wordpress", "Css"],
-    projectLink: "https://obakpooffshore.com/",
+    projectLink: "https://www.obakpooffshoreinternational.com/",
     codeLink: "",
     description:
       "A stunning website built on WordPress for Obakpo Offshore Integrated Nigeria Limited, a leading ship manufacturer. The site showcases their impressive portfolio and provides clear information about their services.",
@@ -132,7 +132,7 @@ export const projects = [
 
   {
     id: 4,
-    title: "Pathfinding Alorithm Visualizer",
+    title: "Pathfinding Algorithm Visualizer",
     image: imagePortfolioPathfinder,
     techUsed: ["JavaScript", "React", "Css3"],
     projectLink: "https://pathfinding-algo-visualizer.vercel.app/",
